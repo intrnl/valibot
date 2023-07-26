@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { toUpperCase } from './toUpperCase';
+import { toUpperCase } from './toUpperCase.js';
 
 describe('toUpperCase', () => {
   test('should transform to upper case', () => {

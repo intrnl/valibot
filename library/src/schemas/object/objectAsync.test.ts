@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { number } from '../number';
-import { string, stringAsync } from '../string';
-import { objectAsync } from './objectAsync';
+import { parseAsync } from '../../methods/index.js';
+import { number } from '../number/index.js';
+import { string, stringAsync } from '../string/index.js';
+import { objectAsync } from './objectAsync.js';
 
 describe('objectAsync', () => {
   test('should pass only objects', async () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { mimeType } from './mimeType';
+import { mimeType } from './mimeType.js';
 
 describe('mimeType', () => {
   const info = { reason: 'any' as const };

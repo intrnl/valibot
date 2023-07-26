@@ -1,5 +1,5 @@
-import type { ValiError } from '../../error';
-import type { BaseSchema, BaseSchemaAsync, Output } from '../../types';
+import type { ValiError } from '../../error/index.js';
+import type { BaseSchema, BaseSchemaAsync, Output } from '../../types.js';
 
 /**
  * Parses unknown input based on a schema.

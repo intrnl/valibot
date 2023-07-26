@@ -3,10 +3,10 @@ import {
   type ObjectOutput,
   type ObjectSchema,
   type ObjectSchemaAsync,
-} from '../../schemas';
-import type { PipeAsync } from '../../types';
-import { getErrorAndPipe } from '../../utils';
-import type { MergeSchemaObjects } from './types';
+} from '../../schemas/index.js';
+import type { PipeAsync } from '../../types.js';
+import { getErrorAndPipe } from '../../utils/index.js';
+import type { MergeSchemaObjects } from './types.js';
 
 /**
  * Object schemas type.

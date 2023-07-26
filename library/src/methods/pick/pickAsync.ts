@@ -3,9 +3,9 @@ import {
   type ObjectOutput,
   type ObjectSchema,
   type ObjectSchemaAsync,
-} from '../../schemas';
-import type { PipeAsync } from '../../types';
-import { getErrorAndPipe } from '../../utils';
+} from '../../schemas/index.js';
+import type { PipeAsync } from '../../types.js';
+import { getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Creates an async object schema that contains only the selected keys of an

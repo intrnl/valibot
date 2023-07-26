@@ -1,1 +1,1 @@
-export * from './ValiError';
+export * from './ValiError.js';

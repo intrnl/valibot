@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { object, string } from '../../schemas';
-import { parse } from '../parse';
-import { transform } from './transform';
+import { object, string } from '../../schemas/index.js';
+import { parse } from '../parse/index.js';
+import { transform } from './transform.js';
 
 describe('transform', () => {
   test('should transform string to number', () => {

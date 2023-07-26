@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { maxRange, minRange } from '../../validations';
-import { number } from './number';
+import { parse } from '../../methods/index.js';
+import { maxRange, minRange } from '../../validations/index.js';
+import { number } from './number.js';
 
 describe('number', () => {
   test('should pass only numbers', () => {

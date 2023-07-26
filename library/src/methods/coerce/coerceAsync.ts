@@ -1,4 +1,4 @@
-import type { BaseSchemaAsync, Input } from '../../types';
+import type { BaseSchemaAsync, Input } from '../../types.js';
 
 /**
  * Coerces the input of a async scheme to match the required type.

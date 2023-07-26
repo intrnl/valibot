@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { object, string } from '../../schemas';
-import { parse } from '../parse';
-import { useDefault } from './useDefault';
+import { object, string } from '../../schemas/index.js';
+import { parse } from '../parse/index.js';
+import { useDefault } from './useDefault.js';
 
 describe('useDefault', () => {
   test('should use default value', () => {

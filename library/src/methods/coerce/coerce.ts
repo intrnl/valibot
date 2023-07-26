@@ -1,4 +1,4 @@
-import type { BaseSchema, Input } from '../../types';
+import type { BaseSchema, Input } from '../../types.js';
 
 /**
  * Coerces the input of a scheme to match the required type.

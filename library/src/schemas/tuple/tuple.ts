@@ -1,7 +1,7 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, Pipe } from '../../types';
-import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils';
-import type { TupleOutput, TupleInput } from './types';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, Pipe } from '../../types.js';
+import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import type { TupleOutput, TupleInput } from './types.js';
 
 /**
  * Tuple shape type.

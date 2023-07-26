@@ -1,4 +1,4 @@
-import type { BaseSchema, Output } from '../../types';
+import type { BaseSchema, Output } from '../../types.js';
 
 /**
  * Parses unknown input based on a schema.

@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import type { Pipe } from '../../types';
-import { executePipe } from './executePipe';
+import type { Pipe } from '../../types.js';
+import { executePipe } from './executePipe.js';
 
 describe('executePipe', () => {
   test('should execute the pipe', () => {

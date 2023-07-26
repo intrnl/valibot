@@ -1,6 +1,6 @@
-import { ValiError } from '../../error';
-import type { BaseSchema, Pipe } from '../../types';
-import { executePipe, getErrorAndPipe } from '../../utils';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchema, Pipe } from '../../types.js';
+import { executePipe, getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Date schema type.

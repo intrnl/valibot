@@ -1,6 +1,6 @@
-import { ValiError } from '../../error';
-import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types';
-import type { NonOptional } from './nonOptional';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types.js';
+import type { NonOptional } from './nonOptional.js';
 
 /**
  * Non optional schema async type.

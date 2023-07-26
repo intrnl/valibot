@@ -1,10 +1,10 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { maxLength, minLength } from '../../validations';
-import { string } from '../string';
-import { number } from '../number';
-import { boolean } from '../boolean';
-import { tuple } from './tuple';
+import { parse } from '../../methods/index.js';
+import { maxLength, minLength } from '../../validations/index.js';
+import { string } from '../string/index.js';
+import { number } from '../number/index.js';
+import { boolean } from '../boolean/index.js';
+import { tuple } from './tuple.js';
 
 describe('tuple', () => {
   test('should pass only tuples', () => {

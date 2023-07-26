@@ -1,13 +1,13 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { nullType } from '../nullType';
-import { nullable } from '../nullable';
-import { number } from '../number';
-import { any } from '../any';
-import { stringAsync } from '../string';
-import { unionAsync } from '../union';
-import { undefinedType } from '../undefinedType';
-import { nonNullableAsync } from './nonNullableAsync';
+import { parseAsync } from '../../methods/index.js';
+import { nullType } from '../nullType/index.js';
+import { nullable } from '../nullable/index.js';
+import { number } from '../number/index.js';
+import { any } from '../any/index.js';
+import { stringAsync } from '../string/index.js';
+import { unionAsync } from '../union/index.js';
+import { undefinedType } from '../undefinedType/index.js';
+import { nonNullableAsync } from './nonNullableAsync.js';
 
 describe('nonNullableAsync', () => {
   test('should not pass null', async () => {

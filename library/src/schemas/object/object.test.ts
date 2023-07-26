@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { number } from '../number';
-import { string } from '../string';
-import { object } from './object';
+import { parse } from '../../methods/index.js';
+import { number } from '../number/index.js';
+import { string } from '../string/index.js';
+import { object } from './object.js';
 
 describe('object', () => {
   test('should pass only objects', () => {

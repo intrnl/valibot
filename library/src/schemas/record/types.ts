@@ -1,6 +1,6 @@
-import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types';
-import type { RecordKey } from './record';
-import type { RecordKeyAsync } from './recordAsync';
+import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types.js';
+import type { RecordKey } from './record.js';
+import type { RecordKeyAsync } from './recordAsync.js';
 
 /**
  * Record path item type.

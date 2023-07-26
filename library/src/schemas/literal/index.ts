@@ -1,2 +1,2 @@
-export * from './literal';
-export * from './literalAsync';
+export * from './literal.js';
+export * from './literalAsync.js';

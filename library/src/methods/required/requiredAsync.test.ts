@@ -1,14 +1,14 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
+import { comparable } from '../../utils/index.js';
 import {
   nonOptionalAsync,
   object,
   objectAsync,
   optionalAsync,
   string,
-} from '../../schemas';
-import { parseAsync } from '../parse';
-import { requiredAsync } from './requiredAsync';
+} from '../../schemas/index.js';
+import { parseAsync } from '../parse/index.js';
+import { requiredAsync } from './requiredAsync.js';
 
 describe('requiredAsync', () => {
   test('should have non optional keys', async () => {

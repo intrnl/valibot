@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { ip } from './ip';
+import { ip } from './ip.js';
 
 describe('ip', () => {
   const info = { reason: 'any' as const };

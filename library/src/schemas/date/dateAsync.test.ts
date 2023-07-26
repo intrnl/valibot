@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { maxRange, minRange } from '../../validations';
-import { dateAsync } from './dateAsync';
+import { parseAsync } from '../../methods/index.js';
+import { maxRange, minRange } from '../../validations/index.js';
+import { dateAsync } from './dateAsync.js';
 
 describe('dateAsync', () => {
   test('should pass only dates', async () => {

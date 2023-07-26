@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { custom, customAsync } from '../../validations';
-import { specialAsync } from './specialAsync';
+import { parseAsync } from '../../methods/index.js';
+import { custom, customAsync } from '../../validations/index.js';
+import { specialAsync } from './specialAsync.js';
 
 type PixelString = `${number}px`;
 const isPixelString = (input: unknown) =>

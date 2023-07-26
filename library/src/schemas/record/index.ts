@@ -1,3 +1,3 @@
-export * from './record';
-export * from './recordAsync';
-export * from './types';
+export * from './record.js';
+export * from './recordAsync.js';
+export * from './types.js';

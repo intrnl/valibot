@@ -1,4 +1,4 @@
-import type { BaseSchema, Input, Output } from '../../types';
+import type { BaseSchema, Input, Output } from '../../types.js';
 
 /**
  * Recursive schema type.

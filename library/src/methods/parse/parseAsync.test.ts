@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { numberAsync, object, string } from '../../schemas';
-import { parseAsync } from './parseAsync';
+import { numberAsync, object, string } from '../../schemas/index.js';
+import { parseAsync } from './parseAsync.js';
 
 describe('parseAsync', () => {
   test('should parse schema', async () => {

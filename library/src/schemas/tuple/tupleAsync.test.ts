@@ -1,10 +1,10 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { maxLength, minLength } from '../../validations';
-import { string } from '../string';
-import { number, numberAsync } from '../number';
-import { booleanAsync } from '../boolean';
-import { tupleAsync } from './tupleAsync';
+import { parseAsync } from '../../methods/index.js';
+import { maxLength, minLength } from '../../validations/index.js';
+import { string } from '../string/index.js';
+import { number, numberAsync } from '../number/index.js';
+import { booleanAsync } from '../boolean/index.js';
+import { tupleAsync } from './tupleAsync.js';
 
 describe('tupleAsync', () => {
   test('should pass only tuples', async () => {

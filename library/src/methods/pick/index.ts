@@ -1,2 +1,2 @@
-export * from './pick';
-export * from './pickAsync';
+export * from './pick.js';
+export * from './pickAsync.js';

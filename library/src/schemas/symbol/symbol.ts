@@ -1,5 +1,5 @@
-import { ValiError } from '../../error';
-import type { BaseSchema } from '../../types';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchema } from '../../types.js';
 
 /**
  * Symbol schema type.

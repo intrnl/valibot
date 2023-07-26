@@ -1,6 +1,6 @@
-import { ValiError } from '../../error';
-import type { BaseSchemaAsync } from '../../types';
-import type { NativeEnum } from './nativeEnum';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchemaAsync } from '../../types.js';
+import type { NativeEnum } from './nativeEnum.js';
 
 /**
  * Native enum schema async type.

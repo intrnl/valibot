@@ -1,2 +1,2 @@
-export * from './number';
-export * from './numberAsync';
+export * from './number.js';
+export * from './numberAsync.js';

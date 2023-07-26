@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
-import { nonOptional, object, optional, string } from '../../schemas';
-import { parse } from '../parse';
-import { required } from './required';
+import { comparable } from '../../utils/index.js';
+import { nonOptional, object, optional, string } from '../../schemas/index.js';
+import { parse } from '../parse/index.js';
+import { required } from './required.js';
 
 describe('required', () => {
   test('should have non optional keys', () => {

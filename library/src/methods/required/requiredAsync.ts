@@ -6,9 +6,9 @@ import {
   type ObjectSchema,
   type ObjectSchemaAsync,
   type ObjectShapesAsync,
-} from '../../schemas';
-import type { BaseSchema, Pipe } from '../../types';
-import { getErrorAndPipe } from '../../utils';
+} from '../../schemas/index.js';
+import type { BaseSchema, Pipe } from '../../types.js';
+import { getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Required object schema type.

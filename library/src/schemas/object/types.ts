@@ -1,6 +1,6 @@
-import type { Input, Output } from '../../types';
-import type { ObjectShape } from './object';
-import type { ObjectShapesAsync } from './objectAsync';
+import type { Input, Output } from '../../types.js';
+import type { ObjectShape } from './object.js';
+import type { ObjectShapesAsync } from './objectAsync.js';
 
 /**
  * Object path item type.

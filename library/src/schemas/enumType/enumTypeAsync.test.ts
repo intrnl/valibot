@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { enumTypeAsync } from './enumTypeAsync';
+import { parseAsync } from '../../methods/index.js';
+import { enumTypeAsync } from './enumTypeAsync.js';
 
 describe('enumTypeAsync', () => {
   test('should pass only enum values', async () => {

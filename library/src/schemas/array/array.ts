@@ -1,6 +1,6 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, Input, Output, Pipe } from '../../types';
-import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, Input, Output, Pipe } from '../../types.js';
+import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Array path item type.

@@ -1,4 +1,4 @@
-import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types';
+import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types.js';
 
 /**
  * Set path item type.

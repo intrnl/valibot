@@ -1,8 +1,8 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, Pipe } from '../../types';
-import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils';
-import { type StringSchema, string } from '../string';
-import type { RecordOutput, RecordInput } from './types';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, Pipe } from '../../types.js';
+import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import { type StringSchema, string } from '../string/index.js';
+import type { RecordOutput, RecordInput } from './types.js';
 
 /**
  * Record key type.

@@ -1,4 +1,4 @@
-import type { ObjectSchema, ObjectSchemaAsync } from '../../schemas';
+import type { ObjectSchema, ObjectSchemaAsync } from '../../schemas/index.js';
 
 /**
  * Merges schema objects types.

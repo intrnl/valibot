@@ -1,4 +1,4 @@
-import type { ParseInfo, PathItem } from '../../types';
+import type { ParseInfo, PathItem } from '../../types.js';
 
 /**
  * Returns the current path.

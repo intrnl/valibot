@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { symbolAsync } from './symbolAsync';
+import { parseAsync } from '../../methods/index.js';
+import { symbolAsync } from './symbolAsync.js';
 
 describe('symbolAsync', () => {
   test('should pass only symbols', async () => {

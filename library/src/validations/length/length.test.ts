@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { length } from './length';
+import { length } from './length.js';
 
 describe('length', () => {
   const info = { reason: 'any' as const };

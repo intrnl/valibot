@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { ValiError } from '../../error';
-import { number, object, string } from '../../schemas';
-import { safeParse } from './safeParse';
+import { ValiError } from '../../error/index.js';
+import { number, object, string } from '../../schemas/index.js';
+import { safeParse } from './safeParse.js';
 
 describe('safeParse', () => {
   test('should return data', () => {

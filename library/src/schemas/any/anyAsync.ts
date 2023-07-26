@@ -1,5 +1,5 @@
-import type { BaseSchemaAsync, PipeAsync } from '../../types';
-import { executePipeAsync } from '../../utils';
+import type { BaseSchemaAsync, PipeAsync } from '../../types.js';
+import { executePipeAsync } from '../../utils/index.js';
 
 /**
  * Any schema type.

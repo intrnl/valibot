@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
-import { object, objectAsync, string } from '../../schemas';
-import { parseAsync } from '../parse';
-import { omitAsync } from './omitAsync';
+import { comparable } from '../../utils/index.js';
+import { object, objectAsync, string } from '../../schemas/index.js';
+import { parseAsync } from '../parse/index.js';
+import { omitAsync } from './omitAsync.js';
 
 describe('omitAsync', () => {
   test('should omit two object keys', async () => {

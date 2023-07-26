@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
-import { object, objectAsync, optionalAsync, string } from '../../schemas';
-import { parseAsync } from '../parse';
-import { partialAsync } from './partialAsync';
+import { comparable } from '../../utils/index.js';
+import { object, objectAsync, optionalAsync, string } from '../../schemas/index.js';
+import { parseAsync } from '../parse/index.js';
+import { partialAsync } from './partialAsync.js';
 
 describe('partialAsync', () => {
   test('should have optional keys', async () => {

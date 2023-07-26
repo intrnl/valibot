@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
-import { object, string } from '../../schemas';
-import { parse } from '../parse';
-import { pick } from './pick';
+import { comparable } from '../../utils/index.js';
+import { object, string } from '../../schemas/index.js';
+import { parse } from '../parse/index.js';
+import { pick } from './pick.js';
 
 describe('pick', () => {
   test('should pick two object keys', () => {

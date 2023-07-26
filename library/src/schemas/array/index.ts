@@ -1,2 +1,2 @@
-export * from './array';
-export * from './arrayAsync';
+export * from './array.js';
+export * from './arrayAsync.js';

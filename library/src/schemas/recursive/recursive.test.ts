@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { minLength } from '../../validations';
-import { string } from '../string';
-import { recursive } from './recursive';
+import { parse } from '../../methods/index.js';
+import { minLength } from '../../validations/index.js';
+import { string } from '../string/index.js';
+import { recursive } from './recursive.js';
 
 describe('recursive', () => {
   test('should pass only getter schema', () => {

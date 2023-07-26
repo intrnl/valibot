@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { comparable } from '../../utils';
-import { object, optional, string } from '../../schemas';
-import { parse } from '../parse';
-import { partial } from './partial';
+import { comparable } from '../../utils/index.js';
+import { object, optional, string } from '../../schemas/index.js';
+import { parse } from '../parse/index.js';
+import { partial } from './partial.js';
 
 describe('partial', () => {
   test('should have optional keys', () => {

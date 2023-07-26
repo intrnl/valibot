@@ -1,7 +1,7 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, BaseSchemaAsync, PipeAsync } from '../../types';
-import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils';
-import type { SetInput, SetOutput } from './types';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, BaseSchemaAsync, PipeAsync } from '../../types.js';
+import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import type { SetInput, SetOutput } from './types.js';
 
 /**
  * Set schema async type.

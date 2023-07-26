@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { maxRange, minRange } from '../../validations';
-import { date } from './date';
+import { parse } from '../../methods/index.js';
+import { maxRange, minRange } from '../../validations/index.js';
+import { date } from './date.js';
 
 describe('date', () => {
   test('should pass only dates', () => {

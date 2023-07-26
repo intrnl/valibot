@@ -1,6 +1,6 @@
-import { ValiError } from '../../error';
-import type { BaseSchemaAsync, PipeAsync } from '../../types';
-import { executePipeAsync, getErrorAndPipe } from '../../utils';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchemaAsync, PipeAsync } from '../../types.js';
+import { executePipeAsync, getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Date schema async type.

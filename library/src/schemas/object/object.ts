@@ -1,7 +1,7 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, Pipe } from '../../types';
-import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils';
-import type { ObjectOutput, ObjectInput } from './types';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, Pipe } from '../../types.js';
+import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import type { ObjectOutput, ObjectInput } from './types.js';
 
 /**
  * Object shape type.

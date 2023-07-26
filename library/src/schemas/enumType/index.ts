@@ -1,2 +1,2 @@
-export * from './enumType';
-export * from './enumTypeAsync';
+export * from './enumType.js';
+export * from './enumTypeAsync.js';

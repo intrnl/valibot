@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { maxLength, minLength, length, includes } from '../../validations';
-import { number, numberAsync } from '../number';
-import { arrayAsync } from './arrayAsync';
+import { parseAsync } from '../../methods/index.js';
+import { maxLength, minLength, length, includes } from '../../validations/index.js';
+import { number, numberAsync } from '../number/index.js';
+import { arrayAsync } from './arrayAsync.js';
 
 describe('array', () => {
   test('should pass only arrays', async () => {

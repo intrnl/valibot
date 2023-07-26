@@ -1,2 +1,2 @@
-export * from './union';
-export * from './unionAsync';
+export * from './union.js';
+export * from './unionAsync.js';

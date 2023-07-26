@@ -1,2 +1,2 @@
-export * from './voidType';
-export * from './voidTypeAsync';
+export * from './voidType.js';
+export * from './voidTypeAsync.js';

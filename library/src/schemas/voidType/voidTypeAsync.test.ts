@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { voidTypeAsync } from './voidTypeAsync';
+import { parseAsync } from '../../methods/index.js';
+import { voidTypeAsync } from './voidTypeAsync.js';
 
 describe('voidTypeAsync', () => {
   test('should pass only void', async () => {

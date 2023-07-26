@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { emoji } from './emoji';
+import { emoji } from './emoji.js';
 
 describe('emoji', () => {
   const info = { reason: 'any' as const };

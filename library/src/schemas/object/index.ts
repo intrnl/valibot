@@ -1,3 +1,3 @@
-export * from './object';
-export * from './objectAsync';
-export * from './types';
+export * from './object.js';
+export * from './objectAsync.js';
+export * from './types.js';

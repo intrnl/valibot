@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { url } from './url';
+import { url } from './url.js';
 
 describe('url', () => {
   const info = { reason: 'any' as const };

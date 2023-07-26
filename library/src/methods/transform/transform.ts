@@ -29,8 +29,8 @@ import type {
   UnionSchema,
   UnknownSchema,
   VoidSchema,
-} from '../../schemas';
-import type { BaseSchema, Input, Output } from '../../types';
+} from '../../schemas/index.js';
+import type { BaseSchema, Input, Output } from '../../types.js';
 
 export function transform<TSchema extends AnySchema, TOutput>(
   schema: TSchema,

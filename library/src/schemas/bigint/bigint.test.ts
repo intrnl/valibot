@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { maxRange, minRange } from '../../validations';
-import { bigint } from './bigint';
+import { parse } from '../../methods/index.js';
+import { maxRange, minRange } from '../../validations/index.js';
+import { bigint } from './bigint.js';
 
 describe('bigint', () => {
   test('should pass only bigints', () => {

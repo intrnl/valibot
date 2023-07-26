@@ -59,8 +59,8 @@ import type {
   UnknownSchemaAsync,
   VoidSchema,
   VoidSchemaAsync,
-} from '../../schemas';
-import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types';
+} from '../../schemas/index.js';
+import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types.js';
 
 export function transformAsync<
   TSchema extends AnySchema | AnySchemaAsync,

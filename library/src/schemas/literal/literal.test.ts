@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { literal } from './literal';
+import { parse } from '../../methods/index.js';
+import { literal } from './literal.js';
 
 describe('literal', () => {
   test('should pass only the literal', () => {

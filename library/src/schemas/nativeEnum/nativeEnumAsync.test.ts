@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { nativeEnumAsync } from './nativeEnumAsync';
+import { parseAsync } from '../../methods/index.js';
+import { nativeEnumAsync } from './nativeEnumAsync.js';
 
 enum Direction {
   Left,

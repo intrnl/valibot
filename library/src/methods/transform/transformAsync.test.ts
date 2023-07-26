@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { object, string } from '../../schemas';
-import { parseAsync } from '../parse';
-import { transformAsync } from './transformAsync';
+import { object, string } from '../../schemas/index.js';
+import { parseAsync } from '../parse/index.js';
+import { transformAsync } from './transformAsync.js';
 
 describe('transformAsync', () => {
   test('should transform string to number', async () => {

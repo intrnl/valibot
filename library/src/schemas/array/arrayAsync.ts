@@ -1,12 +1,12 @@
-import { type Issue, type Issues, ValiError } from '../../error';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
 import type {
   BaseSchema,
   BaseSchemaAsync,
   Input,
   Output,
   PipeAsync,
-} from '../../types';
-import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils';
+} from '../../types.js';
+import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Array schema async type.

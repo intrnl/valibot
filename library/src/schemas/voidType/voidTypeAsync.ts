@@ -1,5 +1,5 @@
-import { ValiError } from '../../error';
-import type { BaseSchemaAsync } from '../../types';
+import { ValiError } from '../../error/index.js';
+import type { BaseSchemaAsync } from '../../types.js';
 
 /**
  * Void schema async type.

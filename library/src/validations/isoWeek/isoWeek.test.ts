@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { isoWeek } from './isoWeek';
+import { isoWeek } from './isoWeek.js';
 
 describe('isoWeek', () => {
   const info = { reason: 'any' as const };

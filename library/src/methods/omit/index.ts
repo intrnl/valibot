@@ -1,2 +1,2 @@
-export * from './omit';
-export * from './omitAsync';
+export * from './omit.js';
+export * from './omitAsync.js';

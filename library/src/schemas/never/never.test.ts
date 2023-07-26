@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { never } from './never';
+import { parse } from '../../methods/index.js';
+import { never } from './never.js';
 
 describe('never', () => {
   test('should pass no value', () => {

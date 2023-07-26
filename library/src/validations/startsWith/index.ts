@@ -1,1 +1,1 @@
-export * from './startsWith';
+export * from './startsWith.js';

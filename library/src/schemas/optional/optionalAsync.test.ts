@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { string } from '../string';
-import { optionalAsync } from './optionalAsync';
+import { parseAsync } from '../../methods/index.js';
+import { string } from '../string/index.js';
+import { optionalAsync } from './optionalAsync.js';
 
 describe('optionalAsync', () => {
   test('should pass also undefined', async () => {

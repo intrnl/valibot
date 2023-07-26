@@ -1,3 +1,3 @@
-export * from './tuple';
-export * from './tupleAsync';
-export * from './types';
+export * from './tuple.js';
+export * from './tupleAsync.js';
+export * from './types.js';

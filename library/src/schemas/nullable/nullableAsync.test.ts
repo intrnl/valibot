@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { string } from '../string';
-import { nullableAsync } from './nullableAsync';
+import { parseAsync } from '../../methods/index.js';
+import { string } from '../string/index.js';
+import { nullableAsync } from './nullableAsync.js';
 
 describe('nullableAsync', () => {
   test('should pass also null', async () => {

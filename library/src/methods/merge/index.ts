@@ -1,2 +1,2 @@
-export * from './merge';
-export * from './mergeAsync';
+export * from './merge.js';
+export * from './mergeAsync.js';

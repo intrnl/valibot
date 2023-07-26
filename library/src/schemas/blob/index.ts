@@ -1,2 +1,2 @@
-export * from './blob';
-export * from './blobAsync';
+export * from './blob.js';
+export * from './blobAsync.js';

@@ -1,7 +1,7 @@
-import { object, type ObjectOutput, type ObjectSchema } from '../../schemas';
-import type { Pipe } from '../../types';
-import { getErrorAndPipe } from '../../utils';
-import type { MergeSchemaObjects } from './types';
+import { object, type ObjectOutput, type ObjectSchema } from '../../schemas/index.js';
+import type { Pipe } from '../../types.js';
+import { getErrorAndPipe } from '../../utils/index.js';
+import type { MergeSchemaObjects } from './types.js';
 
 /**
  * Object schemas type.

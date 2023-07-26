@@ -1,2 +1,2 @@
-export * from './nan';
-export * from './nanAsync';
+export * from './nan.js';
+export * from './nanAsync.js';

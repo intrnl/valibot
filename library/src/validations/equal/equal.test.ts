@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { equal } from './equal';
+import { equal } from './equal.js';
 
 describe('equal', () => {
   const info = { reason: 'any' as const };

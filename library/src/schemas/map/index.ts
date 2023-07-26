@@ -1,3 +1,3 @@
-export * from './map';
-export * from './mapAsync';
-export * from './types';
+export * from './map.js';
+export * from './mapAsync.js';
+export * from './types.js';

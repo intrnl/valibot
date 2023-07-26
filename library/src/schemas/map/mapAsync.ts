@@ -1,12 +1,12 @@
-import { type Issue, type Issues, ValiError } from '../../error';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
 import type {
   BaseSchema,
   BaseSchemaAsync,
   Output,
   PipeAsync,
-} from '../../types';
-import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils';
-import type { MapInput, MapOutput } from './types';
+} from '../../types.js';
+import { executePipeAsync, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import type { MapInput, MapOutput } from './types.js';
 
 /**
  * Map schema async type.

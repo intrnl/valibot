@@ -1,2 +1,2 @@
-export * from './symbol';
-export * from './symbolAsync';
+export * from './symbol.js';
+export * from './symbolAsync.js';

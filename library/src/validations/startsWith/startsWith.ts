@@ -1,5 +1,5 @@
-import { ValiError } from '../../error';
-import type { ValidateInfo } from '../../types';
+import { ValiError } from '../../error/index.js';
+import type { ValidateInfo } from '../../types.js';
 
 /**
  * Creates a validation functions that validates the start of a string.

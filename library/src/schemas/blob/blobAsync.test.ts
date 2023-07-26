@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parseAsync } from '../../methods';
-import { blobAsync } from './blobAsync';
+import { parseAsync } from '../../methods/index.js';
+import { blobAsync } from './blobAsync.js';
 
 describe('blobAsync', () => {
   test('should pass only blobs', async () => {

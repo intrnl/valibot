@@ -1,10 +1,10 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { maxSize, minSize, size } from '../../validations';
-import { string } from '../string';
-import { date } from '../date';
-import { number } from '../number';
-import { set } from './set';
+import { parse } from '../../methods/index.js';
+import { maxSize, minSize, size } from '../../validations/index.js';
+import { string } from '../string/index.js';
+import { date } from '../date/index.js';
+import { number } from '../number/index.js';
+import { set } from './set.js';
 
 describe('set', () => {
   test('should pass only sets', () => {

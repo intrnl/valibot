@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { toTrimmedEnd } from './toTrimmedEnd';
+import { toTrimmedEnd } from './toTrimmedEnd.js';
 
 describe('toTrimmedEnd', () => {
   test('should transform to trimmed end', () => {

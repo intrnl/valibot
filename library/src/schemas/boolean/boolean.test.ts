@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { parse } from '../../methods';
-import { boolean } from './boolean';
+import { parse } from '../../methods/index.js';
+import { boolean } from './boolean.js';
 
 describe('boolean', () => {
   test('should pass only booleans', () => {

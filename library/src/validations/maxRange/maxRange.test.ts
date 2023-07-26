@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { maxRange } from './maxRange';
+import { maxRange } from './maxRange.js';
 
 describe('maxRange', () => {
   const info = { reason: 'any' as const };

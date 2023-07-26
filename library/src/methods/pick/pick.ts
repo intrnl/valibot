@@ -1,6 +1,6 @@
-import { object, type ObjectOutput, type ObjectSchema } from '../../schemas';
-import type { Pipe } from '../../types';
-import { getErrorAndPipe } from '../../utils';
+import { object, type ObjectOutput, type ObjectSchema } from '../../schemas/index.js';
+import type { Pipe } from '../../types.js';
+import { getErrorAndPipe } from '../../utils/index.js';
 
 /**
  * Creates an object schema that contains only the selected keys of an existing

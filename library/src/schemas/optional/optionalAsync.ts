@@ -1,4 +1,4 @@
-import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types';
+import type { BaseSchema, BaseSchemaAsync, Input, Output } from '../../types.js';
 
 /**
  * Optional schema async type.

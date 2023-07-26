@@ -1,7 +1,7 @@
-import { type Issue, type Issues, ValiError } from '../../error';
-import type { BaseSchema, Output, Pipe } from '../../types';
-import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils';
-import type { MapInput, MapOutput } from './types';
+import { type Issue, type Issues, ValiError } from '../../error/index.js';
+import type { BaseSchema, Output, Pipe } from '../../types.js';
+import { executePipe, getCurrentPath, getErrorAndPipe } from '../../utils/index.js';
+import type { MapInput, MapOutput } from './types.js';
 
 /**
  * Map schema type.

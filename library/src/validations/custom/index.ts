@@ -1,2 +1,2 @@
-export * from './custom';
-export * from './customAsync';
+export * from './custom.js';
+export * from './customAsync.js';
